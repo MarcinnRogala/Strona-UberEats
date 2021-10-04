@@ -1,0 +1,424 @@
+header {
+    display: flex;
+    background-image: url("img/nagłówek.png");
+    background-size: cover;
+    flex-direction: column;
+    gap: 16em;
+    height: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header a {
+    color: black;
+}
+.nav {
+display: flex;
+justify-content: space-between;
+height: 100px;
+width: 100%;
+}
+.container {
+display: flex;
+margin-left: 2rem;
+align-items: center;
+height: 100px;
+width: 20%;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    width: 20%;
+    height: 20%
+}
+.logo {
+    display: flex;
+    align-items: center;
+    width: 140%;
+    height: 140%
+}
+.container1 {
+display: flex;
+margin-right: 1rem;
+justify-content: center;
+align-items: center;
+height: 100px;
+width: 10%;
+}
+.contents {
+display: flex;
+margin-left: 3rem;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+height: 400px;
+width: 60%;
+}
+.container2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100px;
+    width: 100%;
+}
+.container3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.container4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.input {
+    font-size: 42px;
+    margin-left: 2rem;
+}
+.placeholder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+.box button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 15%;
+}
+.sign-in {
+    display: flex;
+    justify-content: flex-start;
+    align-self: start;
+    margin-left: 2rem;
+}
+body {
+margin: auto;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    height: 80rem;
+}
+main a {
+    color: black;
+}
+.section {
+    display: flex;
+    margin-top: 5rem;
+    height: 330px;
+    width: 100%;
+}
+.section1{
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    width: 100%;
+}
+.section2{
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    width: 100%;
+}
+.images {
+    display: flex;
+    margin-left: 3rem;
+    gap: 3rem;
+    align-items: flex-start;
+}
+.image-info {
+    display: flex;
+    align-items: flex-start;
+    font-size: 32px;
+    margin-left: 3rem;
+    gap: 10rem;
+}
+.image-links {
+    display: flex;
+    align-items: flex-start;
+    gap: 29rem;
+    font-size: 18px;
+    margin-left: 3rem;
+}
+.section3 {
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+    height: 180px;
+    width: 100%;
+}
+.map-cont {
+    display: flex;
+    justify-content:center;
+    align-self: flex-end;
+    height: 140px;
+    width: 15%;
+    margin-left: 3rem;
+}
+.map-info {
+display: flex;
+justify-content: flex-start;
+align-self: flex-end;
+font-size: 32px;
+margin-left: -2.5rem;
+}
+.inf-cont {
+    display: flex;
+    justify-content:center;
+    height: 140px;
+    width: 20%;
+}
+.map-info2 {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    font-size: 18px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+.section4 {
+    display: flex;
+    height: 380px;
+    width: 100%;
+}
+.map {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-left: 3rem;
+    
+}
+.list-citys {
+    display: flex;
+    justify-content: flex-start;
+    gap: 22rem;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 100%;
+}
+.list-city {
+    display: flex;
+    margin-left: 0.5rem;
+   
+}
+.list3-city {
+    display: flex;
+    justify-content: flex-start;
+    align-self: baseline;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+body li {
+list-style: none;
+}
+.section5 {
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+.country-working {
+    display: flex;
+    margin-top: 3rem;
+    font-size: 32px;
+    margin-left: 3rem;
+}
+.list-countrys {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10.5rem;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 100%;
+}
+.list-country {
+    display: flex;
+    margin-left: 0.5rem;
+}
+.list-country3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.section6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 9%;
+}
+footer {
+    display: flex;
+    margin-top: 29.5rem;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.cont-footer {
+    display: flex;
+    width: 100%;
+    height: 22rem;
+}
+.main-foter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 22rem;
+}
+.main-footer {
+    display: flex;
+    width: 50%;
+    height: 22rem;
+}
+.line-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1rem;
+}
+.cont-fot {
+    display: flex;
+    width: 100%;
+    height: 12rem;
+}
+.second-cont {
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+    height: 4rem;
+}
+.second-coont {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 10rem;
+}
+.cont-uber {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 20%;
+    height: 30%;
+}
+.logo-uber {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 2rem;
+}
+.cont-apps {
+    display: flex;
+    align-self: flex-start;
+    width: 40%;
+    height: 30%;
+}
+.stores {
+    display: flex;
+    align-self: center;
+    margin-left: 2rem;
+    gap: 1rem;
+}
+.info-cont {
+    display: flex;
+    align-self: flex-start;
+    width: 50%;
+    height: 100%;
+}
+.info-container {
+    display: flex;
+    align-self: flex-start;
+    width: 50%;
+    height: 100%;
+}
+.f-info {
+    display: flex;
+    gap: 0.4rem;
+    flex-direction: column;
+    align-self: center;
+}
+.fot-info {
+    display: flex;
+    gap: 0.2rem;
+    flex-direction: column;
+    align-self: center;
+}
+.foot-line {
+    display: flex;
+    background-color: white;
+    align-self: flex-start;
+    width: 97%;
+    height: 1px;
+}
+.wrapers {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    gap: 1rem;
+}
+.conditions {
+    display: flex;
+    align-self: flex-end;
+    gap: 1rem;
+}
+.priv-info {
+    display: flex;
+    letter-spacing: 0.5px;
+    justify-content: flex-end;
+    align-self: flex-start;
+    width: 100%;
+    height: 4rem;
+}
+.condit {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    width: 60%;
+    height: 4rem;
+}
+.priv-creator {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    width:18%;
+    height: 4rem;
+}
+.con-priv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 6rem;
+}
+footer a {
+    color: white;
+}
+footer span {
+    color: white;
+}
